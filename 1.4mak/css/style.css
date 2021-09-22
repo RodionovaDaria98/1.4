@@ -33,14 +33,15 @@ a {
     border: 0px;
     vertical-align: text-top;
     outline: none;
-    /*transition-duration: 1s;*/
+    background-color: #FF3E79;
+
 }
 .header__button{
     margin-left: 16px;
 }
 .button:hover {
     cursor: pointer;
-    /*transform: rotate(360deg);*/
+
 
 }
 .logo {

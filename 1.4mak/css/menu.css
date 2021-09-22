@@ -16,7 +16,7 @@ body {
 
 .header__block:first-child .header__button:hover {
     animation-name: rotate;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -144,8 +144,11 @@ body {
     25% {
         transform: scale(1.2);
     }
+    50% {
+        transform: rotate(-45deg);
+    }
     75% {
-        transform: rotate(180deg);
+        transform: rotate(45deg);
     }
     100% {
         transform: scale(1);
